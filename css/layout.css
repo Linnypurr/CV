@@ -62,14 +62,14 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 5);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #E0EDED;
+   color: #fff;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -110,19 +110,19 @@ header .social li a:hover { color: #FEB24B; }
 header .cloud-bigger {
   position: absolute;
   top: 600px;
-  animation: clouds infinite 50s linear;
+  animation: clouds infinite 105s linear;
 }
 
 header .cloud-big {
   position: absolute;
   top: 600px;
-  animation: clouds infinite 40s linear;
+  animation: clouds infinite 80s linear;
 }
 
 header .cloud-mult {
   position: absolute;
   top: 500px;
-  animation: clouds infinite 35s linear;
+  animation: clouds infinite 65s linear;
 }
 
 @keyframes clouds {
@@ -516,6 +516,8 @@ ul#nav li.current a { color: #ED9D2F; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   width: 220px;
+   height: 220px;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -930,23 +932,6 @@ call-to-action .button {
 }
 
 
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
 
 
 /* ------------------------------------------------------------------ */
