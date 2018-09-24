@@ -97,7 +97,7 @@ header .social li {
 header .social li a {
   color: #fff;
 }
-header .social li a:hover { color: #FEB24B; }
+header .social li a:hover { color: #ED9D2F; }
 
 .cloud-container {
   width: 100%;
@@ -290,7 +290,7 @@ ul#nav li.current a { color: #ED9D2F; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #FEB24B;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -336,12 +336,17 @@ ul#nav li.current a { color: #ED9D2F; }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 50px;
   	background: #ccc;
   	height: 42px;
   	border-radius: 3px;
+    text-align: right;
+    color: white;
+    padding: 10px;
 }
+
 .bars li em {
+    text-align: left;
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
@@ -362,6 +367,10 @@ ul#nav li.current a { color: #ED9D2F; }
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
+   color: white;
+   padding: 2px;
+   padding-bottom: 24px;
+   text-align: left;
 }
 
 .java {
@@ -456,7 +465,7 @@ ul#nav li.current a { color: #ED9D2F; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: #ebeeee;
    overflow: hidden;
    position: relative;
 
@@ -492,7 +501,7 @@ ul#nav li.current a { color: #ED9D2F; }
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
-   color: #fff;
+   color: #ebeeee;
    height: 30px;
    width: 30px;
    font-size: 18px;
