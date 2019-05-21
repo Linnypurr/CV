@@ -57,7 +57,7 @@
             <h1 class="responsive-headline">I'm Lindsee Purnell.</h1>
             <h3>Currently an undergraduate developer seeking experience in the work force.
                I have a strong willingness to learn and expand my knowledge with
-              new programming languages and technologies. I am comfortable working in
+              new programming languages and technologies. Valuable background working in
               a linux environment and using version control software. </h3>
             <hr />
          </div>
@@ -92,12 +92,13 @@
 
             <h2>About Me</h2>
 
-            <p>
-            The famous quote "In times of change, learners inherit the earth,
+            <blockquote>In times of change, learners inherit the earth,
             while the learned find themselves beautifully equipped to deal with
-            a world that no longer exists." by Eric Hoffer resonates with
-            everyone pursuing technology. I was drawn to the field precisely
-            because the amount of knowledge being poured into it will never cease.
+            a world that no longer exists.</blockquote>
+            <cite> - Eric Hoffer </cite>
+            <p>
+            I was drawn to the field precisely because the amount of knowledge
+            being poured into it will never cease.
             I passionately value education and being able to constantly learn and
             grow in my field. I will always seek to improve my work and myself.
             </p>
@@ -109,17 +110,15 @@
                   <h2>Contact Details</h2>
                   <p class="address">
 						   <span>Lindsee Purnell</span><br>
-						   <span> Tacoma, WA US<br>
+						   <span>lindsp14@uw.edu<br>
                 </span><br>
-						   <br>
-                     <span style="color: #fff">Email: lindsp14@uw.edu</span>
-					   </p>
+              </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-                     <a href="images/ResumeLindseePurnell.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="images/UpdatedResumeLindseePurnell.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -139,16 +138,50 @@
 
           <div class="twelve columns collapsed">
 
-             <h1>Check Out Some of My Works.</h1>
+             <h1>Projects</h1>
 
              <!-- portfolio-wrapper -->
              <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/colorpic.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                          <h5>Cloud Probability</h5>
+                              <p>Python, React JS</p>
+                       </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                     <h5>Cloud Probability</h5>
+                  </div>
+                </div> <!-- item end -->
+
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/colorpic.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                          <h5>Twitter Sentiment</h5>
+                              <p>Python</p>
+                       </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                     <h5>Twitter Sentiment</h5>
+                  </div>
+                </div> <!-- item end -->
+
            	   <div class="columns portfolio-item">
                    <div class="item-wrap">
 
-                      <a href="#modal-01" title="">
-                         <img alt="" src="images/portfolio/paint.jpg">
+                      <a href="#modal-03" title="">
+                         <img alt="" src="images/portfolio/powerpaintpic.png">
                          <div class="overlay">
                             <div class="portfolio-item-meta">
            					      <h5>Power Paint</h5>
@@ -164,8 +197,8 @@
                 <div class="columns portfolio-item">
                    <div class="item-wrap">
 
-                      <a href="#modal-02" title="">
-                         <img alt="" src="images/portfolio/bit.jpg">
+                      <a href="#modal-04" title="">
+                         <img alt="" src="images/portfolio/Bitmappic.jpg">
                          <div class="overlay">
                             <div class="portfolio-item-meta">
            					      <h5>BMP manipulation</h5>
@@ -181,8 +214,8 @@
                 <div class="columns portfolio-item">
                    <div class="item-wrap">
 
-                      <a href="#modal-03" title="">
-                         <img alt="" src="images/portfolio/tetris.jpg">
+                      <a href="#modal-05" title="">
+                         <img alt="" src="images/portfolio/tetrispic.png">
                          <div class="overlay">
                             <div class="portfolio-item-meta">
            					      <h5>Tetris</h5>
@@ -198,7 +231,7 @@
                <div class="columns portfolio-item">
                  <div class="item-wrap">
 
-                    <a href="#modal-04" title="">
+                    <a href="#modal-06" title="">
                        <img alt="" src="images/portfolio/colorpic.jpg">
                        <div class="overlay">
                           <div class="portfolio-item-meta">
@@ -212,23 +245,6 @@
                  </div>
              </div> <!-- item end -->
 
-             <div class="columns portfolio-item">
-               <div class="item-wrap">
-
-                  <a href="#modal-05" title="">
-                     <img alt="" src="images/portfolio/colorpic.jpg">
-                     <div class="overlay">
-                        <div class="portfolio-item-meta">
-                       <h5>Cloud Probability</h5>
-                           <p>Python, React JS</p>
-                    </div>
-                     </div>
-                     <div class="link-icon"><i class="icon-plus"></i></div>
-                  </a>
-                  <h5>Cloud Probability</h5>
-               </div>
-             </div> <!-- item end -->
-
              </div> <!-- portfolio-wrapper end -->
 
           </div> <!-- twelve columns end -->
@@ -239,11 +255,55 @@
 
           <div id="modal-01" class="popup-modal mfp-hide">
 
-  		      <img class="scale-with-grid" src="images/portfolio/paint.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/colorpic.jpg" alt="" />
+
+            <div class="description-box">
+              <h4>Cloud Probability</h4>
+              <p>Used the Open Weather Map API to estimate cloud formations.
+              Wrote a basic algorithm to aid in the prediction of the formations
+              based on the provided data. Built a RESTFUL API library to retrieve
+              probabilities. Created a cohesive website with React to display information
+              and probabilities to the user. </p>
+                <span class="categories"><i class="fa fa-tag"></i>Python, React JS</span>
+            </div>
+
+             <div class="link-box">
+                <a href="https://github.com/Linnypurr/Cloudy">Details</a>
+               <a class="popup-modal-dismiss">Close</a>
+             </div>
+
+          </div><!-- modal-01 End -->
+
+          <div id="modal-02" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/colorpic.jpg" alt="" />
+
+            <div class="description-box">
+              <h4>Twitter Sentiment</h4>
+              <p>Used Twitter API tweepy to gather user data. Performed sentiment
+              analysis with the help of Vader Sentiment Library that provided
+              connotation. Charted output and top ten tweets to gain an
+              understanding on the data. </p>
+                <span class="categories"><i class="fa fa-tag"></i>Python</span>
+            </div>
+
+             <div class="link-box">
+                <a href="https://github.com/Linnypurr/Twitter-Sentiment">Details</a>
+               <a class="popup-modal-dismiss">Close</a>
+             </div>
+
+          </div><!-- modal-02 End -->
+
+          <div id="modal-03" class="popup-modal mfp-hide">
+
+  		      <img class="scale-with-grid" src="images/portfolio/powerpaintpic.png" alt="" />
 
   		      <div class="description-box">
   			      <h4>Power Paint</h4>
-  			      <p>Paint application that allows multiple tool options for doodles.</p>
+  			      <p>Paint application that allows multiple tool options for doodles.
+              Modeled after Microsofts Paint. Users can draw and paint on an
+              open canvas. Created abstract classes to represent the tools users
+              can use.</p>
                 <span class="categories"><i class="fa fa-tag"></i>Java</span>
   		      </div>
 
@@ -252,15 +312,17 @@
   		         <a class="popup-modal-dismiss">Close</a>
              </div>
 
-  	      </div><!-- modal-01 End -->
+  	      </div><!-- modal-03 End -->
 
-          <div id="modal-02" class="popup-modal mfp-hide">
+          <div id="modal-04" class="popup-modal mfp-hide">
 
-  		      <img class="scale-with-grid" src="images/portfolio/bit.jpg" alt="" />
+  		      <img class="scale-with-grid" src="images/portfolio/BMPpic.jpg" alt="" />
 
   		      <div class="description-box">
   			      <h4>BMP mainpulation</h4>
-  			      <p>Modifies bitmap files based on specifications given by the user.</p>
+  			      <p>Modifies bitmap files based on specifications given by the user.
+              Reads in specific arguments and calls chosen methods. Takes each
+              pixel in the image and moves or recolors it.</p>
                 <span class="categories"><i class="fa fa-tag"></i>C</span>
   		      </div>
 
@@ -269,15 +331,17 @@
   		         <a class="popup-modal-dismiss">Close</a>
              </div>
 
-  	      </div><!-- modal-02 End -->
+  	      </div><!-- modal-04 End -->
 
-          <div id="modal-03" class="popup-modal mfp-hide">
+          <div id="modal-05" class="popup-modal mfp-hide">
 
-  		      <img class="scale-with-grid" src="images/portfolio/tetris.jpg" alt="" />
+  		      <img class="scale-with-grid" src="images/portfolio/tetrispic.png" alt="" />
 
   		      <div class="description-box">
   			      <h4>Tetris</h4>
-  			      <p>Replica of the classic tetris game.</p>
+  			      <p>Replica of the classic tetris game. Used JavaFX to design a
+              unique frontend for tetris. Ability to change the board size,
+              added background music. </p>
                 <span class="categories"><i class="fa fa-tag"></i>Java</span>
   		      </div>
 
@@ -286,15 +350,20 @@
   		         <a class="popup-modal-dismiss">Close</a>
              </div>
 
-  	      </div><!-- modal-03 End -->
+  	      </div><!-- modal-05 End -->
 
-          <div id="modal-04" class="popup-modal mfp-hide">
+          <div id="modal-06" class="popup-modal mfp-hide">
 
   		      <img class="scale-with-grid" src="images/portfolio/colorpic.jpg" alt="" />
 
   		      <div class="description-box">
   			      <h4>ssh-chat color command</h4>
-  			      <p>Added a color feature to a ssh-chat program.</p>
+  			      <p>Added a color feature to a ssh-chat program. Program forked from <body>
+  			        https://github.com/shazow/ssh-chat. Took the initial methods and
+                worked to implement my own. Each member of the chat program can
+                now choose a specific color for their name based on a color or
+                hexidecimal.
+  			      </body></p>
                 <span class="categories"><i class="fa fa-tag"></i>GO</span>
   		      </div>
 
@@ -303,24 +372,7 @@
   		         <a class="popup-modal-dismiss">Close</a>
              </div>
 
-  	      </div><!-- modal-04 End -->
-
-          <div id="modal-05" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/colorpic.jpg" alt="" />
-
-            <div class="description-box">
-              <h4>Cloud Probability</h4>
-              <p>Used the Open Weather Map API to estimate cloud formations</p>
-                <span class="categories"><i class="fa fa-tag"></i>Python, React JS</span>
-            </div>
-
-             <div class="link-box">
-                <a href="https://github.com/Linnypurr/ssh-chat">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-             </div>
-
-          </div><!-- modal-05 End -->
+  	      </div><!-- modal-06 End -->
 
        </div> <!-- row End -->
 
@@ -348,13 +400,13 @@
                  <p class="info">Intern<span>&bull;</span> <em class="date">January 2019 - June 2019</em></p>
 
                  <p>
-                   Facilitated in the company wide migration from SharePoint
-                   2010 to SharePoint Online. Utilized Microsoft Azure Services
-                   such as Sharegate to transfer website libraries and metadata
-                   to the cloud. Maintained communication and documentation of
-                   the migration for my team. Used Power BI to aggregate and
-                   display data for the migration. Designed and developed new
-                   SharePoint Online websites for multiple users.
+                   Facilitated in the company wide migration from SharePoint 2010
+                   to SharePoint Online. Utilized Microsoft Azure Services to
+                   transfer website libraries and metadata to the cloud. Designed
+                   and developed new SharePoint Online websites for multiple users.
+                   This experience has given me the opportunity to work on a
+                   long term project, and to strengthen my communication and
+                   team working skills. 
                  </p>
 
               </div>
@@ -371,9 +423,9 @@
                   <p>
                     Instucted a wide varity of classes. From programming
                     fundamentals in Scratch to beginning Python. Had the pleasure
-                    to teach a web development class that focuses on
-                    animations in Javascript and HTML5. Continually present and
-                    organize curriculum for multiple classes at a time.
+                    of teaching a web development class that focuses on
+                    animations in Javascript and HTML5. Presented and
+                    organized curriculum for multiple classes at a time.
                     Maintain 70% student retention by motivating and encouraging
                     students to pursue programming.
                   </p>
@@ -406,8 +458,7 @@
                   <p>
                   My education at the University of Washington Tacoma taught me the
                   value of communication and discpline. Having to push myself
-                  through challenging classes in my major, such as, discrete
-                  mathematics and Operating Systems. Being able to successed
+                  through challenging classes in my major. Being able to successed
                   and understand this material is extremely rewarding.
                   </p>
 
@@ -448,22 +499,24 @@
          <div class="nine columns main-col">
 
             <p>
-              The following are skill sets I am working on:<br>In terms of
-              projects completed.
+              <b>The following are skill sets I am working on:<br>In terms of number
+              of projects completed.
             </p>
 				<div class="bars">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand java">0</span><em>Java</em>12</li>
-            <li><span class="bar-expand c">0</span><em>C</em>12</li>
-						<li><span class="bar-expand css">0</span><em>CSS</em>12</li>
-						<li><span class="bar-expand html5">0</span><em>HTML5</em>12</li>
-            <li><span class="bar-expand linux">0</span><em>Linux</em>12</li>
-					</ul>
+					   <li><span class="bar-expand java">4</span><em>Java</em>6</li>
+            <li><span class="bar-expand c">6</span><em>C</em>6</li>
+						<li><span class="bar-expand css">3</span><em>CSS</em>6</li>
+						<li><span class="bar-expand html5">3</span><em>HTML</em>6</li>
+            <li><span class="bar-expand python">2</span><em>Python</em>6</li>
+            <li><span class="bar-expand go">1</span><em>GO</em>6</li>
+          </ul>
 
 				</div><!-- end skill-bars -->
 
 			</div> <!-- main-col end -->
+      </b>
       </div> <!-- End skills -->
 
    </section> <!-- Resume Section End-->
