@@ -1,3 +1,4 @@
+@import "compass/css3";
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -244,20 +245,25 @@ ul#nav li.current a { color: #ED9D2F; }
    line-height: 30px;
    color: #7A7A7A;
 }
+
 #about .profile-pic {
-   position: relative;
-   width: 194px;
-   height: 240px;
-   border-radius: 80%;
+   width: 430px;
+   height: 490px;
 }
-#about .contact-details { width: 41.66667%; }
+
+#about .columns {
+  width: 45%;
+}
+
+#about .contact-details { padding-left: 2px; width: auto; }
 #about .download {
-   width: 58.33333%;
-   padding-top: 6px;
+   width: 60%;
+   padding-left: 40px;
+   /* padding-top: 6px; */
 }
-#about .main-col { padding-right: 5%; }
+#about .main-col {padding-left: 2px;}
 #about .download .button {
-   margin-top: 6px;
+   /* margin-top: 6px; */
    background: #444;
 }
 #about .download .button:hover {
@@ -323,8 +329,82 @@ ul#nav li.current a { color: #ED9D2F; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+.chart {width: 100%; }
 
-.bars {
+.chart li {
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .6) inset;
+  display: block;
+  height: 125px;
+  padding: 25px 0;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.chart .axis {
+  display: none;
+  top: -25px;
+  width: 11%;
+}
+
+.chart .label {
+  background: #eaeaea;
+  margin: -.6em 0 70px 0;
+}
+
+.chart .percent {
+  font-size: 30px;
+  letter-spacing: -3px;
+  opacity: .4;
+  width: 100%;
+}
+
+.chart .blue {
+  background: #3090C7;
+  border: 1px solid #3090C7;
+}
+
+.chart .orange {
+  background: #ED9D2F;
+  border: 1px solid #ED9D2F;
+}
+
+.chart span { font-size: 30px; }
+
+
+@media (min-width: 700px) {
+  .chart {
+    background: url("http://cl.ly/QSpc/bg-chart.png") right top repeat-x;
+    height: 425px;
+    margin: 0 auto -32px;
+  }
+  .chart li {
+    display: inline-block;
+    height: 425px;
+    margin: 0 1.8% 0 0;
+    width: 14%;
+  }
+  .chart .axis {
+    display: inline-block;
+  }
+
+  .chart .skill {
+    bottom: 20px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+}
+
+@@media (min-width: 1000px) {
+  .chart .percent {
+    font-size: 62px;
+  }
+}
+
+
+/* .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
@@ -455,7 +535,7 @@ ul#nav li.current a { color: #ED9D2F; }
 @-webkit-keyframes go {
   0%   { width: 0px;  }
   100% { width: 15%;  }
-}
+} */
 
 
 /* ------------------------------------------------------------------ */
